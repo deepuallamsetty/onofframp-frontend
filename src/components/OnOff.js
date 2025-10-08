@@ -6,7 +6,7 @@ import abijson from "../assests/OnRampStablecoin.json"
 
 const OnOffRampApp = (userAddress) => {
   const contractABI = abijson.abi;
-  const contractAddress = "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318";
+  const contractAddress = "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c";
   const [amount, setAmount] = useState("");
   const [mode, setMode] = useState("buy");
   const [balance, setBalance] = useState(null);
